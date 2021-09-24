@@ -4,6 +4,7 @@
   "description": "Desafio SonarCloud",
   "main": "sum.js",
   "scripts": {
+    "build": "babel src -d lib",
     "test": "jest --coverage",
     "start": "node sum.js"
   },
