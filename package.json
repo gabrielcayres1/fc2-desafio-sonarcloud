@@ -1,0 +1,21 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Desafio SonarCloud",
+  "main": "sum.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "jest",
+    "start": "node sum.js"
+  },
+  "author": "Gabriel Cayres",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "@actions/core": "^1.5.0",
+    "@actions/github": "^5.0.0"
+  },
+  "devDependencies": {
+    "jest": "^27.2.1"
+  }
+}
