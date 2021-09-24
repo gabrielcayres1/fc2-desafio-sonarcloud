@@ -17,6 +17,7 @@
     "babel": "^6.23.0"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "jest": "^27.2.1"
   }
 }
