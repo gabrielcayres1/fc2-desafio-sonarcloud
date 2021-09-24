@@ -6,7 +6,7 @@
   "scripts": {
     "build": "babel src -d lib",
     "test": "jest",
-    "start": "sum.js"
+    "start": "node sum.js"  
   },
   "author": "Gabriel Cayres",
   "license": "ISC"
