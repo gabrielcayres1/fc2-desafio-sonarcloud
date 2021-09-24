@@ -13,8 +13,7 @@
   "keywords": [],
   "dependencies": {
     "@actions/core": "^1.5.0",
-    "@actions/github": "^5.0.0",
-    "babel": "^6.23.0"
+    "@actions/github": "^5.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
