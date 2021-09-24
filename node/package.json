@@ -4,8 +4,10 @@
   "description": "Desafio SonarCloud",
   "main": "sum.js",
   "scripts": {
-    "build": "babel src -d lib",
+    "build": "ncc build -o dist/setup src/setup-node.ts && ncc build -o dist/cache-save src/cache-save.ts",
+    "format": "prettier --write **/*.ts",
     "test": "jest",
+    "pre-checkin": "npm run format && npm run build && npm test",
     "start": "node sum.js"  
   },
   "author": "Gabriel Cayres",
