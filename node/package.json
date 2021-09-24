@@ -5,7 +5,7 @@
   "main": "sum.js",
   "scripts": {
     "build": "babel src -d lib",
-    "test": "jest --coverage",
+    "test": "jest",
     "start": "node sum.js"
   },
   "author": "Gabriel Cayres",
