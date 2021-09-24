@@ -5,8 +5,13 @@
   "main": "sum.js",
   "scripts": {
     "test": "jest --coverage",
-    "start": "node sum.js"  
+    "start": "node sum.js"
   },
   "author": "Gabriel Cayres",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "@actions/core": "^1.5.0",
+    "@actions/github": "^5.0.0"
+  }
 }
